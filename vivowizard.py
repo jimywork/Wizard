@@ -2,7 +2,6 @@ import requests
 import shodan
 import argparse
 from pyfiglet import Figlet
-import sys
 
 class bgColor:
     HEADER = '\033[95m'
