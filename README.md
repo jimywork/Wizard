@@ -9,7 +9,7 @@ This method accesses the default wireless configuration page and extracts the pa
 </a>
 
 ### How to use?
-To use shodanwave you need an api key which you can get for free at https://www.shodan.io/, then you need to follow the next steps.
+To use wizard with shodan you need an api key which you can get for free at https://www.shodan.io/, then you need to follow the next steps.
 
 ### Installation
 
