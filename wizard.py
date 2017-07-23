@@ -17,7 +17,7 @@ isASingletarget = False
 
 def Banner() :
 	Wizard = Figlet(font='slant')
-	Graph = Wizard.renderText('shodanWizard')
+	Graph = Wizard.renderText('Wizard')
 
 	print("%s" % (Graph))
 	print("%s" % (bgColor.FAIL + "This tool captures wireless passwords from vivo provider users\nUse of this tool for crimes is on your responsibility." + bgColor.ENDC))
