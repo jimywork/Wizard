@@ -75,8 +75,6 @@ def exploit(host, port) :
 
 def ShodanSearch() :
 
-	Banner()
-
 	shodanAPI = shodan.Shodan(args.address)
 	api = shodanAPI.search(args.search, limit = args.limit, offset= args.offset)
 	total = api.get('total')
@@ -96,5 +94,6 @@ if isASingletarget:
 	Banner()
 	exploit(args.target, args.port)
 else:
+	Banner()
 	ShodanSearch()
 
